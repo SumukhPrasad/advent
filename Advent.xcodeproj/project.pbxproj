@@ -24,6 +24,7 @@
 		8C7B6BC92AA809A0005DA1E3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8C7B6BCC2AA809A0005DA1E3 /* Advent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Advent.xcdatamodel; sourceTree = "<group>"; };
 		8C7B6BCE2AA809A0005DA1E3 /* Advent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Advent.entitlements; sourceTree = "<group>"; };
+		8C7B6BD42AA80E5C005DA1E3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				8C7B6BCE2AA809A0005DA1E3 /* Advent.entitlements */,
 				8C7B6BCB2AA809A0005DA1E3 /* Advent.xcdatamodeld */,
 				8C7B6BC62AA809A0005DA1E3 /* Preview Content */,
+				8C7B6BD42AA80E5C005DA1E3 /* README.md */,
 			);
 			path = Advent;
 			sourceTree = "<group>";
