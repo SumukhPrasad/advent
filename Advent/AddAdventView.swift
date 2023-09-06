@@ -47,6 +47,7 @@ struct AddAdventView: View {
 					}
 					dismiss()
 				}
+				.disabled(name.isEmpty)
 			}
 			.alert(isPresented: $showAlert) {
 			   Alert(

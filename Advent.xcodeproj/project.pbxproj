@@ -17,7 +17,6 @@
 		8C7B6BD82AA831E5005DA1E3 /* AdventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7B6BD72AA831E5005DA1E3 /* AdventView.swift */; };
 		8C7B6BDA2AA8346B005DA1E3 /* +ItemFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7B6BD92AA8346B005DA1E3 /* +ItemFormatter.swift */; };
 		8C7B6BDC2AA84814005DA1E3 /* +EquatableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7B6BDB2AA84813005DA1E3 /* +EquatableItem.swift */; };
-		8C7B6BE02AA84B2A005DA1E3 /* +deleteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7B6BDF2AA84B2A005DA1E3 /* +deleteItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +33,6 @@
 		8C7B6BD72AA831E5005DA1E3 /* AdventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventView.swift; sourceTree = "<group>"; };
 		8C7B6BD92AA8346B005DA1E3 /* +ItemFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+ItemFormatter.swift"; sourceTree = "<group>"; };
 		8C7B6BDB2AA84813005DA1E3 /* +EquatableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+EquatableItem.swift"; sourceTree = "<group>"; };
-		8C7B6BDF2AA84B2A005DA1E3 /* +deleteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+deleteItem.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +67,6 @@
 			children = (
 				8C7B6BC02AA8099B005DA1E3 /* AdventApp.swift */,
 				8C7B6BC22AA8099B005DA1E3 /* ContentView.swift */,
-				8C7B6BDF2AA84B2A005DA1E3 /* +deleteItem.swift */,
 				8C7B6BD92AA8346B005DA1E3 /* +ItemFormatter.swift */,
 				8C7B6BDB2AA84813005DA1E3 /* +EquatableItem.swift */,
 				8C7B6BD52AA81136005DA1E3 /* AddAdventView.swift */,
@@ -165,7 +162,6 @@
 				8C7B6BCA2AA809A0005DA1E3 /* Persistence.swift in Sources */,
 				8C7B6BCD2AA809A0005DA1E3 /* Advent.xcdatamodeld in Sources */,
 				8C7B6BDA2AA8346B005DA1E3 /* +ItemFormatter.swift in Sources */,
-				8C7B6BE02AA84B2A005DA1E3 /* +deleteItem.swift in Sources */,
 				8C7B6BD82AA831E5005DA1E3 /* AdventView.swift in Sources */,
 				8C7B6BD62AA81136005DA1E3 /* AddAdventView.swift in Sources */,
 				8C7B6BDC2AA84814005DA1E3 /* +EquatableItem.swift in Sources */,
@@ -304,6 +300,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Advent;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -331,6 +329,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Advent;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
