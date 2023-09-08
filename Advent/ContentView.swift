@@ -10,6 +10,7 @@ import CoreData
 
 struct ContentView: View {
 	@Environment(\.managedObjectContext) private var viewContext
+	@Environment(\.colorScheme) var colorScheme
 	
 	@FetchRequest(
 		sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
@@ -43,7 +44,7 @@ struct ContentView: View {
 				}
 			}
 			Text("Select an advent to view.")
-		}.background(Color.white)
+		}.background(colorScheme == .dark ? Color.black : Color.white)
 		
 			.sheet(isPresented: $presentingAddNewAdventSheet, content: {
 				AddAdventView()
